@@ -1,0 +1,62 @@
+
+.Duty {
+    display: grid;
+    margin-bottom: 0.8rem;
+    /* width: 100%; */
+    grid-template-columns: 80% auto;
+    align-items: center;
+    padding: 1rem 2rem 1rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 7px -1px rgba(51, 51, 51, 0.23);
+    transition: transform .25s cubic-bezier(.7,.98,.86,.98), box-shadow .25s cubic-bezier(.7,.98,.86,.98);
+    background-color: #fffdfd;
+
+}
+.Duty:hover{
+    transform: scale(1.02);
+    box-shadow: 0 9px 47px 11px rgba(51, 51, 51, 0.18);
+}
+
+.Duty h3 { 
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.64px;
+    margin-left: 0.8rem;
+}
+
+.buttonActions {
+    justify-self: end;
+}
+
+.buttonActions button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    transition: 0.8s transform cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.buttonActions button:hover{
+    transform: scale(1.2);
+}
+
+.buttonActions img {
+    width:35px;
+}
+
+@media (max-width: 565px) {
+    .Duty { 
+        padding: 8px 18px 8px 8px;
+    }
+    .Duty h3 { 
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+    .buttonActions button {
+        width: 30px;
+    }
+
+    .buttonActions img {
+        width: 25px;
+    }
+}

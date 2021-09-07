@@ -1,0 +1,28 @@
+.Header {
+    position:fixed;
+    width: 100%;
+    padding: 0.4rem 0;
+    z-index: 100;
+
+    background-color: var(--clr-header);
+}
+
+.HeaderGroup {
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    flex-wrap: nowrap;
+}
+
+.HeaderGroup h3 {
+    font-size: 1.4rem;
+    margin-right: 20px;
+}
+
+.HeaderGroup img {
+    width: 60px;
+    height: 80px;
+}

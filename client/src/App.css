@@ -1,0 +1,37 @@
+:root { 
+  --clr-bg: #043D59;
+  --clr-header: #08A7DD;
+  --clr-dutylist: #077EA6;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background-color: var(--clr-bg);
+  color: #fcfcfc;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Main {
+  padding-top: 7.5rem;
+  display: grid;
+  grid-template-columns: 70% auto;
+  color: #fcfcfc;
+  
+}
+
+
+@media (max-width: 920px){
+  .Main {
+    display: flex;
+    flex-direction: column-reverse;    
+  }   
+}
