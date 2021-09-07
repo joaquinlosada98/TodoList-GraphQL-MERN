@@ -1,8 +1,8 @@
 # TodoList-GraphQL-MERN
 
-Step by step instrucions: 
+Step by step instructions: 
 
-* 1 - run "npm install" on ./client and ./server folders. 
+* 1 - Run "npm install" in ./client and ./server folders. 
 * 2 - Once all the packages are installed, go to your Mongo Atlas account and create a new Cluster. 
 * 3 - In your new Cluster, go to "connect" and click on "Connect your application". 
 * 4 - Copy the URI string and paste it on the file ".env" that is in the "./server" folder. 
